@@ -2,10 +2,10 @@
 LeNet about
 ## LeNet
   LeNet是卷积神经网络的祖师爷LeCun在1998年提出，用于解决手写数字识别的视觉任务。自那时起，CNN的最基本的架构就定下来了：卷积层、池化层、全连接层。如今各大深度学习框架中所使用的LeNet都是简化改进过的LeNet-5（-5表示具有5个层），和原始的LeNet有些许不同，比如把激活函数改为了现在很常用的ReLu。  
-  ![emmmm]()
+  ![emmmm](https://github.com/Heured/PCV_Assignment_10/blob/master/ImgToShow/Lenet架构.png)
   
   LeNet-5跟现有的conv->pool->ReLU的套路不同，它使用的方式是conv1->pool->conv2->pool2再接全连接层，但是不变的是，卷积层后紧接池化层的模式依旧不变。  
-  ![emmmm]()  
+  ![emmmm](https://github.com/Heured/PCV_Assignment_10/blob/master/ImgToShow/Lenet流程.png)  
   
   以上图为例，对经典的LeNet-5做深入分析：  
   1.首先输入图像是单通道的28x28大小的图像，用矩阵表示就是[1,28,28]  
