@@ -40,9 +40,9 @@ LeNet about
 从图上可看出，在训练次数到60~80时逐渐收敛。  
   
 结果：
-![emmmm]()  
-![emmmm]()  
-![emmmm]()  
+![emmmm](https://github.com/Heured/PCV_Assignment_10/blob/master/ImgToShow/结果01.PNG)  
+![emmmm](https://github.com/Heured/PCV_Assignment_10/blob/master/ImgToShow/结果02.PNG)  
+![emmmm](https://github.com/Heured/PCV_Assignment_10/blob/master/ImgToShow/结果03.PNG)  
   
 也许是网络的鲁棒性过高，导致特征相似的两种数字被误判。
 
